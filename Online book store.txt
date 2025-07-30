@@ -1,0 +1,36 @@
+Online book store
+
+step 1:
+create project : django-admin  startproject OnlineBookStore
+change the directory:cd OnlineBookStore
+Create projectapp : python manage.py startapp bookstore
+Note : Add bookstore to installed apps in settings.py
+now add urls.py into bookstore from OnlineBookStore
+
+step2:
+Run migrations:
+then create models class 
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+in sqlite all attributes/columns should show
+
+step3:
+create views(Views.py)
+And in the projects urls.py
+
+step5:
+Templates and static files
+ 
+Step6:
+create styles.css files
+
+step7:
+provided the pah in settings.py in urls section
+
+step8:
+create your superuser(admin)
+
+cmd: python manage.py createsuperuser
+
+

@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online BookStores</title>
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+    </head>
+    <body>
+        <header><h1>Online Book Store</h1></header>
+        <nav>
+            <a href="/">Home</a> | <a href="/cart">Cart</a> |
+            <a href="/analytics">Analytics</a>
+        </nav>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+    </body>
+
+</html>
